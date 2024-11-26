@@ -14,7 +14,7 @@ https://unijacob.itch.io/week-3a
 3. Created the script [VerticalLooper](https://github.com/UniJacob/Week3a/blob/main/Assets/Scripts/VerticalLooper.cs) - makes the game object loop through the screen when reaching its right and left edges. Uses edge collidors (that are place on the right and left borders).
 4. Edited the script [InputMover](https://github.com/UniJacob/Week3a/blob/main/Assets/Scripts/1-movers/InputMover.cs):
 
-      4.a The spaecship now cannot exist the screen through the upper and lower boundries.
+      4.a The spaceship now cannot exist the screen through the upper and lower boundries.
 
       4.b The spaceship can now rotate 30 degrees to the right/left when holding the E/Q keys.
 5. Created the script [DestroyedOutOfBounds](https://github.com/UniJacob/Week3a/blob/main/Assets/Scripts/DestroyedOutOfBounds.cs) which makes a game object destroy itself when reaching a certain distance past the scene boundries. Used for optimization: [Enemy](https://github.com/UniJacob/Week3a/blob/main/Assets/Prefabs/EnemySaucerWithCollider.prefab) and [Laser](https://github.com/UniJacob/Week3a/blob/main/Assets/Prefabs/LaserWithScoreAdder.prefab) objects will no longer continue to move upwards/downwards forever (and needlessly take up memory).
