@@ -7,7 +7,7 @@
  */
 public class Mover: MonoBehaviour {
     [Tooltip("Movement vector in meters per second")]
-    [SerializeField] Vector3 velocity;
+    [SerializeField] public Vector3 velocity;
 
     void Update() {
         transform.position += velocity * Time.deltaTime;
